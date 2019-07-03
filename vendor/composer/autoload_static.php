@@ -33,6 +33,7 @@ class ComposerStaticInit4b4594a6abc8318bad6409c8eb817de4
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
+        'b4e3f29b106af37a2bb239f73cdf68c7' => __DIR__ . '/../..' . '/app/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -457,6 +458,13 @@ class ComposerStaticInit4b4594a6abc8318bad6409c8eb817de4
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
             ),
         ),
+        'D' => 
+        array (
+            'Dflydev\\ApacheMimeTypes' => 
+            array (
+                0 => __DIR__ . '/..' . '/dflydev/apache-mime-types/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
@@ -480,6 +488,8 @@ class ComposerStaticInit4b4594a6abc8318bad6409c8eb817de4
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\TagCreateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TagCreateRequest.php',
+        'App\\Http\\Requests\\TagUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TagUpdateRequest.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\Tag' => __DIR__ . '/../..' . '/app/Models/Tag.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
@@ -532,6 +542,14 @@ class ComposerStaticInit4b4594a6abc8318bad6409c8eb817de4
         'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
         'DeepCopy\\TypeFilter\\TypeFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
         'DeepCopy\\TypeMatcher\\TypeMatcher' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+        'Dflydev\\ApacheMimeTypes\\AbstractRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/AbstractRepository.php',
+        'Dflydev\\ApacheMimeTypes\\ArrayRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/ArrayRepository.php',
+        'Dflydev\\ApacheMimeTypes\\CompositeRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/CompositeRepository.php',
+        'Dflydev\\ApacheMimeTypes\\FlatRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/FlatRepository.php',
+        'Dflydev\\ApacheMimeTypes\\JsonRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/JsonRepository.php',
+        'Dflydev\\ApacheMimeTypes\\Parser' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/Parser.php',
+        'Dflydev\\ApacheMimeTypes\\PhpRepository' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/PhpRepository.php',
+        'Dflydev\\ApacheMimeTypes\\RepositoryInterface' => __DIR__ . '/..' . '/dflydev/apache-mime-types/src/Dflydev/ApacheMimeTypes/RepositoryInterface.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
         'Doctrine\\Common\\Lexer\\AbstractLexer' => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php',
         'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',

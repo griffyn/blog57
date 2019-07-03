@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class TagCreateaRequest extends FormRequest
+class UploadNewFolderRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,10 +24,8 @@ class TagCreateaRequest extends FormRequest
     public function rules()
     {
         return [
-            'tag' => 'bail|required|unique:tags,tag',
-            'title' => 'required',
-            'subtitle' => 'required',
-            'layout' => 'required',
+            'folder' => 'required',
+            'new_folder' => 'required',
         ];
     }
 }

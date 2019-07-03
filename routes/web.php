@@ -26,8 +26,13 @@ Route::get('/admin', function () {
 });
 Route::middleware('auth')->namespace('Admin')->group(function () {
     Route::resource('admin/post', 'PostController');
-    Route::resource('admin/tag', 'TagController');
+    Route::resource('admin/tag', 'TagController',['except' => 'show']);
     Route::get('admin/upload', 'UploadController@index');
+    // 添加如下路由
+    Route::post('admin/upload/file', 'UploadController@uploadFile');
+    Route::delete('admin/upload/file', 'UploadController@deleteFile');
+    Route::post('admin/upload/folder', 'UploadController@createFolder');
+    Route::delete('admin/upload/folder', 'UploadController@deleteFolder');
 });
 
 // 登录退出
